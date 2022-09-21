@@ -1,0 +1,24 @@
+body {
+    font-family: 'Crimson Text', serif;
+    height: 400px;
+    width: 755px;
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+.main-header {
+
+
+    padding: 30px 30px;
+    margin: 0px auto;
+    border-radius: 30px;
+    /* font stuff  */
+    font-style: italic;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
