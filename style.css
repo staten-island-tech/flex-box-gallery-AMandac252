@@ -1,20 +1,25 @@
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Cardo', serif;
+    color: #8c90e3;
     height: 400px;
     width: 755px;
     margin: 40px auto;
     text-align: center;
+    background-image: url(Media/BG.jpg);
+    background-size: cover;
 
 }
 
 .main-header {
-
     padding: 30px 30px;
     margin: 0px auto;
     border-radius: 30px;
+    background: #F3F8FC;
+    box-shadow:10px 10px #CBD9F6;
     /* font stuff  */
     font-style: italic;
     font-size: 3rem;
+
 }
 
 h2 {
@@ -24,25 +29,36 @@ h2 {
 }
 
 .postL{
-    height: 400px;
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 10px 10px #CBD9F6;
     font-style: italic;
 }
 
 .postM{
-    height: 400px;
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 10px 10px #CBD9F6;
     font-style: italic;
 }
 
 .postR{
-    height: 400px;
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 10px 10px #CBD9F6;
     font-style: italic;
 }
+
+#images {
+    border-radius: 30px;
+    padding: 10px auto;
+    margin: auto;
+    scale: 90%;
+}
+
+a{
+    text-decoration: none;
+ }
+a:link{
+    color: #551A8B;
+ }
