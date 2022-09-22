@@ -9,16 +9,40 @@ body {
 
 .main-header {
 
-
     padding: 30px 30px;
     margin: 0px auto;
     border-radius: 30px;
     /* font stuff  */
     font-style: italic;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration-line: underline;
+}
+
+.postL{
+    height: 400px;
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 10px 10px lightblue;
+    font-style: italic;
+}
+
+.postM{
+    height: 400px;
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 10px 10px lightblue;
+    font-style: italic;
+}
+
+.postR{
+    height: 400px;
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 10px 10px lightblue;
+    font-style: italic;
 }
