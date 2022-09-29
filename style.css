@@ -1,6 +1,6 @@
 body {
     font-family: 'Cardo', serif;
-    color: #8c90e3;
+    color: #9698c8;
     height: 400px;
     width: 755px;
     margin: 40px auto;
@@ -15,10 +15,10 @@ body {
     margin: 0px auto;
     border-radius: 30px;
     background: #F3F8FC;
-    box-shadow:10px 10px #CBD9F6;
+    box-shadow:10px 10px 5px #b7c0d2;
     /* font stuff  */
     font-style: italic;
-    font-size: 3rem;
+    font-size: 3em;
 
 }
 
@@ -31,21 +31,21 @@ h2 {
 .postL{
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px #CBD9F6;
+    box-shadow: 10px 10px 5px #b7c0d2;
     font-style: italic;
 }
 
 .postM{
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px #CBD9F6;
+    box-shadow: 10px 10px 5px  #b7c0d2;
     font-style: italic;
 }
 
 .postR{
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px #CBD9F6;
+    box-shadow: 10px 10px 5px  #b7c0d2;
     font-style: italic;
 }
 
@@ -53,12 +53,13 @@ h2 {
     border-radius: 30px;
     padding: 10px auto;
     margin: auto;
-    scale: 90%;
+
 }
 
-a{
-    text-decoration: none;
- }
-a:link{
-    color: #551A8B;
- }
+.paragraph {
+    padding: 10px;
+    border-style: dashed;
+    border-radius: 30px;
+}
+
+
