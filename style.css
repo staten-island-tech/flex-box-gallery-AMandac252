@@ -20,7 +20,7 @@ body {
   margin: 5rem auto;
   border-radius: 30px;
   background: #fbfdff;
-  box-shadow: 10px 10px 5px #adacd2;
+  box-shadow: 10px 10px 5px #dedde8;
   width: fit-content;
   /* font stuff  */
   font-style: italic;
@@ -30,7 +30,7 @@ body {
 .post {
   border-radius: 30px;
   padding: 10px;
-  box-shadow: 10px 10px 5px #eae7df;
+  box-shadow: 10px 10px 5px #dedde8;
   font-style: italic;
   margin: 2rem;
   background: #fbfdff;
