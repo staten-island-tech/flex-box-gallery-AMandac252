@@ -6,6 +6,36 @@ body {
   background-image: url(Media/BG.jpg);
   background-size: cover;
 }
+
+@media screen and (max-width: 900px) {
+  .holdingcontainer {
+    flex-direction: column;
+  }
+
+  .post {
+    width: 60%;
+  }
+
+  .paragraph {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .holdingcontainer {
+    flex-direction: column;
+  }
+
+  .post {
+    width: 100%;
+  }
+
+  .paragraph {
+    width: fit-content;
+  }
+}
+
+
 .holdingcontainer {
   padding: 30px;
   display: flex;
