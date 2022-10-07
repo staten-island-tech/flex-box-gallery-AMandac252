@@ -13,7 +13,7 @@ body {
   }
 
   .post {
-    width: 60%;
+    width: 40%;
   }
 
   .paragraph {
@@ -21,7 +21,8 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1000px) {
   .holdingcontainer {
     flex-direction: column;
   }
@@ -67,6 +68,7 @@ body {
   width: 27%;
   font-size: 1rem;
   font-weight: bold;
+
 }
 
 #images {
@@ -76,7 +78,10 @@ body {
 }
 
 .paragraph {
-  padding: 10px;
   border-style: dashed;
   border-radius: 30px;
+  padding: 10px;
+  margin: 2rem;
+  background: #fbfdff;
+  text-align: center;
 }
