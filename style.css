@@ -7,7 +7,7 @@ body {
   background-size: cover;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
   .holdingcontainer {
     flex-direction: column;
   }
@@ -20,22 +20,6 @@ body {
     width: fit-content;
   }
 }
-
-
-@media screen and (max-width: 1000px) {
-  .holdingcontainer {
-    flex-direction: column;
-  }
-
-  .post {
-    width: 100%;
-  }
-
-  .paragraph {
-    width: fit-content;
-  }
-}
-
 
 .holdingcontainer {
   padding: 30px;

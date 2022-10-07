@@ -1,0 +1,71 @@
+body {
+    font-family: "Cardo", serif;
+    color: #83898A;
+    margin: 40px auto;
+    text-align: center;
+    background-image: url(Images/susan-wilkinson-hFvWfVxHlaY-unsplash.jpg);
+    background-size:cover;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .holdingcontainer {
+      flex-direction: column;
+    }
+  
+    .post {
+      width: 50%;
+    }
+  
+    .paragraph {
+      width: fit-content;
+    }
+  }
+  
+  .holdingcontainer {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    width: 70vw;
+  }
+  
+  .main-header {
+    padding: 30px 30px;
+    margin: 5rem auto;
+    border-radius: 30px;
+    background: #fffbfa;
+    box-shadow: 10px 10px 5px #dedde8;
+    width: fit-content;
+    /* font stuff  */
+    font-style: italic;
+    font-size: 3em;
+  }
+  
+  .post {
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #a67d5f;
+    font-style: italic;
+    margin: 2rem;
+    background: #fbfdff;
+    width: 27%;
+    font-size: 1rem;
+    font-weight: bold;
+  
+  }
+  
+  #images {
+    border-radius: 30px;
+    padding: 10px auto;
+    margin: auto;
+  }
+  
+  .paragraph {
+    border-style: dashed;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 2rem;
+    background: #fbfdff;
+    text-align: center;
+  }
