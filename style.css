@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Cardo", serif;
   color: #9698c8;
   margin: 40px auto;
@@ -38,7 +38,7 @@ body {
   box-shadow: 10px 10px 5px #dedde8;
   width: fit-content;
   /* font stuff  */
-  font-style: italic;
+/*   font-style: italic;
   font-size: 3em;
 }
 
@@ -67,4 +67,4 @@ body {
   margin: 2rem;
   background: #fbfdff;
   text-align: center;
-}
+} */ 
