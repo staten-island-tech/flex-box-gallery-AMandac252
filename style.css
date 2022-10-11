@@ -7,24 +7,6 @@ body {
     background-size:cover;
   }
   
-  @media screen and (min-width: 480px) {
-    .holdingcontainer {
-      flex-direction: column;
-    }
-  
-    .post {
-      width: 80%;
-      flex: 1;
-    }
-  
-    .paragraph {
-      width: 50%;
-    }
-
-    #images{
-      width: 90%;
-    }
-  }
   
   .holdingcontainer {
     padding: 30px;
@@ -76,4 +58,5 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 300px;
   }
