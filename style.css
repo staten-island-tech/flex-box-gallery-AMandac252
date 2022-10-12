@@ -1,13 +1,21 @@
 body {
-    font-family: "Cardo", serif;
-    color: #83898A;
-    margin: 40px auto;
-    text-align: center;
-    background-image: url(Images/susan-wilkinson-hFvWfVxHlaY-unsplash.jpg);
-    background-size:cover;
+  font-family: "Cardo", serif;
+  color: #83898A;
+  margin: 40px auto;
+  text-align: center;
+  background-image: url(Images/susan-wilkinson-hFvWfVxHlaY-unsplash.jpg);
+  background-size: cover;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+
+  .post {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  
   .holdingcontainer {
     padding: 30px;
     display: flex;
@@ -15,48 +23,154 @@ body {
     margin: auto;
     width: 70vw;
 
-  }
-  
-  .main-header {
-    padding: 30px 30px;
-    margin: 5rem auto;
-    border-radius: 30px;
-    background: #fbfdff;
-    box-shadow: 10px 10px 5px #a67d5f;
-    width: fit-content;
-    /* font stuff  */
-    font-style: italic;
-    font-size: 3em;
-  }
-  
-  .post {
-    border-radius: 30px;
-    padding: 10px;
-    font-style: italic;
-    margin: 2rem;
-    width: 27%;
-    font-size: 1rem;
-    font-weight: bold;
-  
-  
-  }
-  
-  #images {
-    border-radius: 30px;
-    padding: 10px auto;
-    margin: auto;
-    box-shadow: 10px 10px 5px #a67d5f;
-    border: 1rem solid #fbfdff;
-  }
-  
   .paragraph {
-    border-style: dashed;
-    border-radius: 30px;
-    padding: 10px;
-    margin: 2rem;
-    background: #fbfdff;
+    align-items: center;
+    font-size: 1rem;
+
+  }
+
+  #images {
+    justify-content: center;
+    align-items: center;
+    width: 400%;
+    margin-right: 10px;
+
+  }
+
+  .main-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paragraph {
+    width: 20px;
+    
+  
+  }
+
+  #images {
+    justify-content: center;
+    align-items: center;
+    width: 400%;
+
+  }
+
+  .main-header{
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 300px;
   }
+
+}
+
+
+.holdingcontainer {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  padding: 30px 30px;
+  margin: 5rem auto;
+  border-radius: 30px;
+  background: #fbfdff;
+  box-shadow: 10px 10px 5px #a67d5f;
+  width: 30rem;
+  align-self: center;
+
+  /* font stuff  */
+  font-style: italic;
+  font-size: 3em;
+}
+
+.post {
+  border-radius: 30px;
+  padding: 10px;
+  font-style: italic;
+  margin: 2rem;
+  width: 27%;
+  font-size: 1rem;
+  font-weight: bold;
+  align-self: center;
+}
+
+#images {
+  border-radius: 30px;
+  margin: auto;
+  box-shadow: 10px 10px 5px #a67d5f;
+  border: 1rem solid #fbfdff;
+
+}
+
+
+.paragraph {
+  border-radius: 30px;
+  padding: 20px;
+  margin: 2rem;
+  background: #fbfdff;
+  align-self: center;
+  box-shadow: 10px 10px 5px #a67d5f;
+  width: 300px;
+}
+
+.pill {
+  padding: 10px 28px;
+  margin: 1rem auto;
+  background-color: #fbfdff;
+  color: #83898A;
+  border: 2px solid transparent;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Cardo", serif;
+  border-radius: 20px;
+  width: 8rem;
+  float: center 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 8px 15px #83898A;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  transition: all 0.3s ease 0s;
+
+}
+
+.pill:hover {
+  background-color: #a67d5f;
+  color: #fbfdff;
+  border: 2px solid #fbfdff;
+  -webkit-transition-duration: 0.4s;
+  box-shadow: 0px 8px 15px #a67d5f;
+  transform: translateY(-7px);
+}
+
+#images:hover{
+  -webkit-transition-duration: 0.4s;
+  transform: translateY(-7px);
+  scale: 110%;
+}
+
+.paragraph:hover{
+  -webkit-transition-duration: 0.4s;
+  transform: translateY(-7px);
+}
+
