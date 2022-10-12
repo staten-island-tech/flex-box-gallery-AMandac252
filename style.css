@@ -8,90 +8,6 @@ body {
   align-items: center;
 }
 
-@media (max-width: 480px) {
-
-  .paragraph {
-    align-items: center;
-    font-size: 1rem;
-
-  }
-
-  #images {
-    justify-content: center;
-    align-items: center;
-    width: 200%;
-    margin-right: 10px;
-
-  }
-
-  .main-header{
-    display: flex;
-    text-align: center;
-    align-items: center;
-  }
-
-}
-
-@media (max-width: 768px) {
-
-  .post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .paragraph {
-    width: 20px;
-  }
-
-  #images {
-    justify-content: center;
-    align-items: center;
-    width: 400%;
-
-  }
-
-  .main-header{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-  }
-
-}
-
-@media (max-width: 992px) {
-
-  .post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .paragraph {
-    width: 20px;
-  }
-
-  #images {
-    justify-content: center;
-    align-items: center;
-    width: 400%;
-
-  }
-
-  .main-header{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-  }
-
-}
-
-
-
 .holdingcontainer {
   padding: 30px;
   display: flex;
@@ -187,5 +103,101 @@ body {
 .paragraph:hover{
   -webkit-transition-duration: 0.4s;
   transform: translateY(-7px);
+  font-size: 110%;
+  color: #a67d5f;
+  font-style: bold;
+  transition: all 0.3s ease;
 }
 
+.main-header:hover{
+  background-color: #a67d5f;
+  color: #fbfdff;
+  border: 2px solid #fbfdff;
+  -webkit-transition-duration: 0.4s;
+}
+
+
+@media (max-width: 992px) {
+
+  .main-header{
+  width: 90%;
+}
+  .post{
+  align-items: center;
+  margin: 3rem;
+}
+  .paragraph {
+    width: 90%;
+    align-self: center;
+  }
+
+  #images {
+    justify-content: center;
+    align-items: center;
+    width: 125%;
+
+  }
+
+  .main-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paragraph {
+    width: 80%;
+  }
+
+  #images {
+    justify-content: center;
+    align-items: center;
+    width: 400%;
+
+  }
+
+  .main-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .paragraph {
+    align-items: center;
+    font-size: 1rem;
+
+  }
+
+  #images {
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    margin-right: 10px;
+
+  }
+
+  .main-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+}
