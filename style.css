@@ -10,19 +10,6 @@ body {
 
 @media (max-width: 480px) {
 
-  .post {
-    box-sizing: content-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .holdingcontainer {
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 70vw;
-
   .paragraph {
     align-items: center;
     font-size: 1rem;
@@ -55,8 +42,6 @@ body {
 
   .paragraph {
     width: 20px;
-    
-  
   }
 
   #images {
