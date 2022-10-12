@@ -19,7 +19,7 @@ body {
   #images {
     justify-content: center;
     align-items: center;
-    width: 400%;
+    width: 200%;
     margin-right: 10px;
 
   }
@@ -60,6 +60,36 @@ body {
   }
 
 }
+
+@media (max-width: 992px) {
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paragraph {
+    width: 20px;
+  }
+
+  #images {
+    justify-content: center;
+    align-items: center;
+    width: 400%;
+
+  }
+
+  .main-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+}
+
 
 
 .holdingcontainer {
