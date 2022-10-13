@@ -8,6 +8,13 @@ body {
   align-items: center;
 }
 
+.dark-mode {
+  background-image: url(Images/jackson-david-yXZ8PKZFrIE-unsplash.jpg);
+}
+
+
+
+
 .holdingcontainer {
   padding: 30px;
   display: flex;
@@ -73,8 +80,6 @@ body {
   text-align: center;
   font-family: "Cardo", serif;
   border-radius: 20px;
-  width: 8rem;
-  float: center 20px;
   display: flex;
   justify-content: center;
   box-shadow: 0px 8px 15px #83898A;
@@ -82,6 +87,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   transition: all 0.3s ease 0s;
+  width: auto;
 
 }
 
@@ -103,18 +109,22 @@ body {
 .paragraph:hover{
   -webkit-transition-duration: 0.4s;
   transform: translateY(-7px);
-  font-size: 110%;
   color: #a67d5f;
   font-style: bold;
   transition: all 0.3s ease;
 }
 
 .main-header:hover{
-  background-color: #a67d5f;
-  color: #fbfdff;
-  border: 2px solid #fbfdff;
   -webkit-transition-duration: 0.4s;
+  transform: translateY(-7px);
+  background: url(Images/jackson-david-yXZ8PKZFrIE-unsplash.jpg);
+  background-size: cover;
+  transition: all 0.3s ease;
+  color: #c69e82;
+
 }
+
+
 
 
 @media (max-width: 992px) {
