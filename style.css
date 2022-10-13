@@ -8,13 +8,6 @@ body {
   align-items: center;
 }
 
-.dark-mode {
-  background-image: url(Images/jackson-david-yXZ8PKZFrIE-unsplash.jpg);
-}
-
-
-
-
 .holdingcontainer {
   padding: 30px;
   display: flex;
@@ -60,12 +53,7 @@ body {
 
 
 .paragraph {
-  border-radius: 30px;
-  padding: 20px;
-  margin: 2rem;
-  background: #fbfdff;
   align-self: center;
-  box-shadow: 10px 10px 5px #a67d5f;
   width: 300px;
 }
 
@@ -89,6 +77,16 @@ body {
   transition: all 0.3s ease 0s;
   width: auto;
 
+}
+
+.subpost{
+  background-color: #fbfdff;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 2rem;
+  box-shadow: 10px 10px 5px #a67d5f;
+  align-items: center;
+  width: 300px;
 }
 
 .pill:hover {
@@ -115,13 +113,12 @@ body {
 }
 
 .main-header:hover{
-  -webkit-transition-duration: 0.4s;
-  transform: translateY(-7px);
-  background: url(Images/jackson-david-yXZ8PKZFrIE-unsplash.jpg);
-  background-size: cover;
-  transition: all 0.3s ease;
-  color: #c69e82;
-
+  background:
+    linear-gradient(-45deg, #000  40%, #fff 0 60%, #000  0) right/300% 100% no-repeat,
+    linear-gradient(-45deg, #a67d5f 40%, #a67d5f 0 60%, #a67d5f 0) right/300% 100% no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.8s
 }
 
 
