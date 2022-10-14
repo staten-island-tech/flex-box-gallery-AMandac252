@@ -89,6 +89,12 @@ body {
   width: 300px;
 }
 
+.subpost:hover{
+  -webkit-transition-duration: 0.4s;
+  transform: translateY(-7px);
+  scale: 110%;
+}
+
 .pill:hover {
   background-color: #a67d5f;
   color: #fbfdff;
@@ -114,13 +120,92 @@ body {
 
 .main-header:hover{
   background:
-    linear-gradient(-45deg, #000  40%, #fff 0 60%, #000  0) right/300% 100% no-repeat,
-    linear-gradient(-45deg, #a67d5f 40%, #a67d5f 0 60%, #a67d5f 0) right/300% 100% no-repeat;
+    linear-gradient(-45deg, #fbfdff  40%, #e2cbb9 0 60%, #fbfdff  0) right/300% 100% no-repeat,
+    linear-gradient(-45deg, #fbfdff 40%, #e2cbb9 0 60%, #fbfdff 0) right/300% 100% no-repeat;
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.8s
 }
 
+.linkbox{
+  padding: 20px;
+  margin: auto;
+  width: fit-content;
+  background: #fbfdff;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 8px 15px #a67d5f;
+}
+
+.linkbox:hover{
+    -webkit-transition-duration: 0.4s;
+    transform: translateY(-7px);
+    scale: 110%;
+}
+
+a:link {
+  color: #a67d5f;
+  text-decoration: none;
+}
+.btn {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+  width: 500px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #83898A;
+  letter-spacing: 2.5px;
+  font-style: bold;
+}
+
+.btn span {
+  transition: all 0.3s;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #83898A;
+  border-bottom-color: #83898A;
+  transform: scale(0.1, 1);
+}
+.btn:hover span {
+  letter-spacing: 2px;
+}
+.btn:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+.btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.244);
+  border-radius: 10px;
+}
+.btn:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
 
 
 
