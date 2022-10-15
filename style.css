@@ -1,7 +1,7 @@
 body {
   font-family: "Cardo", serif;
   color: #83898A;
-  margin: 40px auto;
+  margin: 0px auto;
   text-align: center;
   background-image: url(Images/susan-wilkinson-hFvWfVxHlaY-unsplash.jpg);
   background-size: cover;
@@ -310,7 +310,5 @@ a:link {
     justify-content: center;
     align-items: center;
     width: 100%;
-
-
   }
 }
