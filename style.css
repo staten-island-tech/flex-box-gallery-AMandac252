@@ -8,6 +8,7 @@ body {
   align-items: center;
 }
 
+
 .holdingcontainer {
   padding: 30px;
   display: flex;
@@ -54,12 +55,12 @@ body {
 }
 
 .paragraph {
- text-align: center;
- font-size: 1rem;
+  text-align: center;
+  font-size: 1rem;
 }
 
 
-.subpost{
+.subpost {
   background-color: #fbfdff;
   border-radius: 30px;
   padding: 2rem;
@@ -69,7 +70,7 @@ body {
   width: fit-content
 }
 
-.subpost:hover{
+.subpost:hover {
   -webkit-transition-duration: 0.4s;
   transform: translateY(-7px);
   scale: 110%;
@@ -107,13 +108,13 @@ body {
   transform: translateY(-7px);
 }
 
-#images:hover{
+#images:hover {
   -webkit-transition-duration: 0.4s;
   transform: translateY(-7px);
   scale: 110%;
 }
 
-.paragraph:hover{
+.paragraph:hover {
   -webkit-transition-duration: 0.4s;
   transform: translateY(-7px);
   color: #a67d5f;
@@ -121,16 +122,16 @@ body {
   transition: all 0.3s ease;
 }
 
-.main-header:hover{
+.main-header:hover {
   background:
-    linear-gradient(-45deg, #fbfdff  40%, #e2cbb9 0 60%, #fbfdff  0) right/300% 100% no-repeat,
+    linear-gradient(-45deg, #fbfdff 40%, #e2cbb9 0 60%, #fbfdff 0) right/300% 100% no-repeat,
     linear-gradient(-45deg, #fbfdff 40%, #e2cbb9 0 60%, #fbfdff 0) right/300% 100% no-repeat;
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.8s
 }
 
-.linkbox{
+.linkbox {
   padding: 20px;
   margin: auto;
   width: fit-content;
@@ -141,16 +142,17 @@ body {
   box-shadow: 0px 8px 15px #a67d5f;
 }
 
-.linkbox:hover{
-    -webkit-transition-duration: 0.4s;
-    transform: translateY(-7px);
-    scale: 110%;
+.linkbox:hover {
+  -webkit-transition-duration: 0.4s;
+  transform: translateY(-7px);
+  scale: 110%;
 }
 
 a:link {
   color: #83898A;
   text-decoration: none;
 }
+
 .btn {
   color: #FFF;
   transition: all 0.3s;
@@ -168,6 +170,7 @@ a:link {
 .btn span {
   transition: all 0.3s;
 }
+
 .btn::before {
   content: '';
   position: absolute;
@@ -186,13 +189,16 @@ a:link {
   border-bottom-color: #a67d5f;
   transform: scale(0.1, 1);
 }
+
 .btn:hover span {
   letter-spacing: 2px;
 }
+
 .btn:hover::before {
-  opacity: 1; 
-  transform: scale(1, 1); 
+  opacity: 1;
+  transform: scale(1, 1);
 }
+
 .btn::after {
   content: '';
   position: absolute;
@@ -206,81 +212,13 @@ a:link {
   border-radius: 10px;
   color: #a67d5f;
 }
+
 .btn:hover::after {
-  opacity: 0; 
+  opacity: 0;
   transform: scale(0.1, 1);
 }
 
-
-@media screen and (max-width: 400px) {
-  
-  .main-header {
-    width: 70%;
-  }
-
-  .post {
-    text-align: center;
-    align-items: center;
-    width: 60%;
-
-  }
-.paragraph{
-  font: 40%;
-  text-align: center;
-
-}
-  .subpost {
-    width: fit-content;
-    align-self: center;
-    box-sizing: border-box;
-  
-  }
-
-  #images {
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-  }
-
-
-}
-
-@media screen and (max-width: 1000px) {
-  .main-header {
-    width: 75%;
-  }
-
-  .post {
-    text-align: center;
-    align-items: center;
-    width: 70%;
-
-  }
-.paragraph{
-  font: 100%;
-  text-align: center;
-
-}
-  .subpost {
-    width: fit-content;
-    align-self: center;
-    box-sizing: border-box;
-  
-  }
-
-  #images {
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-
-  }
-}
-
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
   .main-header {
     width: 80%;
   }
@@ -291,23 +229,90 @@ a:link {
     width: 95%;
 
   }
-.paragraph{
-  font-size: 155%;
-  text-align: center;
 
-}
+  .paragraph {
+    font-size: 155%;
+    text-align: center;
+
+  }
+
   .subpost {
     width: fit-content;
     align-self: center;
     box-sizing: border-box;
-
-  
   }
 
   #images {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: fit-content;
   }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .main-header {
+    width: 75%;
+  }
+
+  .post {
+    width: 80%;
+
+  }
+
+  .paragraph {
+    font-size: 100%;
+
+
+  }
+
+  .subpost {
+    width: fit-content;
+    align-self: center;
+    box-sizing: border-box;
+  }
+
+
+  #images {
+    width: 100%;
+
+
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .main-header {
+    width: 70%;
+  }
+
+  .post {
+    width: 80%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph {
+    text-align: center;
+    align-items: center;
+    font-size: 50%;
+  }
+  .subpost {
+    width: fit-content;
+    align-self: center;
+    box-sizing: border-box;
+  }
+
+  #images {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+  }
+
+
 }
