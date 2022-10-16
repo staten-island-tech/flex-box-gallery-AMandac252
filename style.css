@@ -8,7 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   
-  --main-header-time: 750ms;
+  --main-header-time: 700ms;
   --link-box-time: 800ms;
   --article-load-delay: calc((var(--link-box-time)) + (var(--main-header-time)))
 }
@@ -147,7 +147,7 @@ body {
 #images:hover {
   transition-duration: 0.4s;
   transform: translateY(-7px);
-  scale: 110%;
+  scale: 105%;
 }
 
 .paragraph:hover {
@@ -168,7 +168,7 @@ body {
 }
 
 .linkbox {
-  padding: 20px;
+  padding: 15px;
   margin: auto;
   width: fit-content;
   background: #fbfdff;
@@ -446,13 +446,6 @@ a:link {
 
   100%{
     transform: translateY(0);
-
-    background:
-    linear-gradient(-45deg, #fbfdff 40%, #e2cbb9 0 60%, #fbfdff 0) right/300% 100% no-repeat,
-    linear-gradient(-45deg, #fbfdff 40%, #e2cbb9 0 60%, #fbfdff 0) right/300% 100% no-repeat;
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  transition: 30s;
   }
   
 }
