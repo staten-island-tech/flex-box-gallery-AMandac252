@@ -67,7 +67,9 @@ body {
   box-shadow: 10px 10px 5px #a67d5f;
   border: 1rem solid #fbfdff;
   width: 350px;
-  
+  transition-duration: 0.4s;
+
+
   animation: article-load 500ms ease-in var(--article-load-delay);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -78,6 +80,7 @@ body {
 .paragraph {
   text-align: center;
   font-size: 1rem;
+  transition-duration: 0.4s;
   animation: article-load 500ms ease-in calc(var(--article-load-delay)+ 300ms);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -93,6 +96,7 @@ body {
   box-shadow: 10px 10px 5px #a67d5f;
   align-items: center;
   width: fit-content;
+  transition-duration: 0.4s;
  
   animation: article-load 500ms ease-in calc(var(--article-load-delay)+ 200ms);
   animation-fill-mode: forwards;
@@ -102,7 +106,6 @@ body {
 }
 
 .subpost:hover {
-  transition-duration: 0.4s;
   transform: translateY(-7px);
   scale: 110%;
 }
@@ -139,19 +142,15 @@ body {
   background-color: #a67d5f;
   color: #fbfdff;
   border: 2px solid #fbfdff;
-  transition-duration: 0.4s;
   box-shadow: 0px 8px 15px #a67d5f;
-  transform: translateY(-7px);
 }
 
 #images:hover {
-  transition-duration: 0.4s;
   transform: translateY(-7px);
   scale: 105%;
 }
 
 .paragraph:hover {
-  transition-duration: 0.4s;
   transform: translateY(-7px);
   color: #a67d5f;
   font-style: bold;
