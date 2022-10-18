@@ -98,10 +98,7 @@ body {
   width: fit-content;
   transition-duration: 0.4s;
  
-  animation: article-load 500ms ease-in calc(var(--article-load-delay)+ 200ms);
-  animation-fill-mode: forwards;
-  transform: translateY(-20px);
-  opacity: 0;
+  
 
 }
 
