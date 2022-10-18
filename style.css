@@ -134,7 +134,7 @@ body {
   transition: all 0.3s ease 0s;
   width: auto;
 
-  animation: article-load 500ms ease-in calc(var(--article-load-delay) + 400ms);
+  animation: article-load 500ms ease-in calc(var(--article-load-delay) + 300ms);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
